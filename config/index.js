@@ -15,7 +15,7 @@ export const config = {
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  IS_SHOW_COLOR: false,
+  IS_SHOW_COLOR: true,
 
   // 功能开关,打开：true，关闭：false
   SWITCH: {
@@ -104,30 +104,6 @@ export const config = {
       festivals: [],
       customizedDateList: []
     },
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -145,7 +121,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "oeW1U6Lu0z1ffsi67pQ91QPNNqQ0",
     },
     // 你可以不断按格式往下增加
     // ...
